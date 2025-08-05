@@ -23,3 +23,5 @@ const {menorIndice, maiorIndice} = encontrandoIndices(numeros);
 
 console.log("Indice do menor valor:", menorIndice)
 console.log("Indice do maior valor", maiorIndice)
+
+module.exports = { encontrandoIndices }

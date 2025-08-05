@@ -10,5 +10,7 @@ function somar(limites) {
             multiplosDe7 += i;
     }
    console.log(multiplosDe5 + multiplosDe7)
-    
+    return multiplosDe5 + multiplosDe7; // agora retorna!
 }
+
+module.exports = { somar }
